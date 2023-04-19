@@ -60,5 +60,21 @@ input:focus{
 
 .age {
   font-weight: bolder;
-  font-size: 48px;
+  font-size: 84px;
+  margin: -32px;
+}
+.age:nth-child(1) {
+  margin-top: 32px;
+}
+button {
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    border-radius: 100%;
+    width: 68px;
+    height: 68px;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 8%);
+  cursor: pointer;
 }
