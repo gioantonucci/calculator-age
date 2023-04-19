@@ -1,9 +1,11 @@
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-    }
-input[type=number] { -moz-appearance:textfield; }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -31,19 +33,19 @@ section {
 }
 
 input {
-    font-family: "Poppins", sans-serif;
-    font-size: 32px;
-    font-weight: bolder;
-    padding: 12px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-input:focus{
-    outline: none;
-    border-color: hsl(259, 100%, 65%);
-    cursor: pointer;
+input:focus {
+  outline: none;
+  border-color: hsl(259, 100%, 65%);
+  cursor: pointer;
 }
 .label {
   font-weight: bold;
@@ -66,12 +68,22 @@ input:focus{
 .age:nth-child(1) {
   margin-top: 32px;
 }
+
+.mid {
+  display: flex;
+  align-items: center;
+}
+
+.solid {
+  height: 1px; 
+  border-right: 374px solid #bbb;
+}
 button {
-    background-color: hsl(259, 100%, 65%);
-    border: none;
-    border-radius: 100%;
-    width: 68px;
-    height: 68px;
+  background-color: hsl(259, 100%, 65%);
+  border: none;
+  border-radius: 100%;
+  width: 68px;
+  height: 68px;
 }
 
 button:hover {
