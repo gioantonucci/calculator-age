@@ -53,7 +53,12 @@ input:focus {
   margin-bottom: 4px;
   color: hsl(0, 1%, 44%);
 }
-
+.order {
+  display: flex;
+  flex-direction: column;
+  background-color: #bbb;
+  padding: 100px;
+}
 .span {
   font-weight: bold;
   font-size: 84px;

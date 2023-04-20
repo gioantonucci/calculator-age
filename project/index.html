@@ -16,8 +16,10 @@
   </head>
   <body>
     <div class="container">
+      <div class="order">
       <!-- inputs -->
       <section class="input-container">
+
         <div class="inputs">
           <label class="label" name="day" id="day-label" for="day">DAY</label>
           <input
@@ -26,6 +28,7 @@
             name="day"
             min="1"
             max="31"
+            value=""
             placeholder="DD"
             maxlength="2"
           />
@@ -40,6 +43,7 @@
             min="1"
             max="12"
             placeholder="MM"
+            value=""
             maxlength="2"
           />
           <p id="error-month"></p>
@@ -53,6 +57,7 @@
             min="1800"
             max="2023"
             placeholder="YYYY"
+            value=""
             maxlength="4"
           />
           <p id="error-year"></p>
@@ -79,15 +84,15 @@
       <!-- spans -->
       <div class="span-containers">
         <p class="age">
-          <span class="span" id="span-year">- -</span><i>years</i>
+          <span class="span" id="span-year"><i>- - </i></span><i>years</i>
         </p>
         <p class="age">
-          <span class="span" id="span-month">- -</span><i>months</i>
+          <span class="span" id="span-month"><i>- - </i></span><i>months</i>
         </p>
         <p class="age">
-          <span class="span" id="span-day">- -</span><i>days</i>
+          <span class="span" id="span-day"><i>- - </i></span><i>days</i>
         </p>
-      </div>
+      </div></div>
     </div>
     <!-- spans -->
     <!-- footer -->
