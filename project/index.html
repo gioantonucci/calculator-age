@@ -15,9 +15,9 @@
     <title>Frontend Mentor | Age calculator app</title>
   </head>
   <body>
-    <section class="container">
+    <div class="container">
       <!-- inputs -->
-      <div class="input-container">
+      <section class="input-container">
         <div class="inputs">
           <label class="label" name="day" id="day-label" for="day">DAY</label>
           <input
@@ -27,7 +27,9 @@
             min="1"
             max="31"
             placeholder="DD"
+            maxlength="2"
           />
+          <p id="error-day"></p>
         </div>
         <div class="inputs">
           <label for="month" class="label">MONTH</label>
@@ -38,7 +40,9 @@
             min="1"
             max="12"
             placeholder="MM"
+            maxlength="2"
           />
+          <p id="error-month"></p>
         </div>
         <div class="inputs">
           <label class="label" for="year">YEAR</label>
@@ -49,9 +53,11 @@
             min="1800"
             max="2023"
             placeholder="YYYY"
+            maxlength="4"
           />
+          <p id="error-year"></p>
         </div>
-      </div>
+      </section>
       <!-- inputs -->
       <div class="mid">
         <hr class="solid" />
@@ -82,7 +88,7 @@
           <span class="span" id="span-day">- -</span><i>days</i>
         </p>
       </div>
-    </section>
+    </div>
     <!-- spans -->
     <!-- footer -->
     <div class="attribution">
